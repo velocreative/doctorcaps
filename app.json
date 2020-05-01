@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Doctor Caps",
+    "slug": "doctor-caps",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#272727"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#000",
+      "translucent": true
+    },
+    "androidNavigationBar": {
+      "visible": "sticky-immersive"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.mgmediaweb.doctorcaps",
+      "versionCode": 1
+    },
+    "description": "Doctor Caps...."
+  }
+}
